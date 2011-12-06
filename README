@@ -1,0 +1,25 @@
+This is incase you are as strange as myself and wonder how old you are in days. It is not just used for your birthday though, I found it can basically be used for many other things. It even tells you what day of the week it was on the date that you choose.. 
+
+This could have been done with much less code in my opinion, if I had used "require 'date'" and did Date.leaps(year) but I wanted to use the arrays. I have never thought of anything I needed them for, and this seemed the first thing I was able to make using in array in any language.
+
+For some reason it works perfectly on windows, but linux it seems to have an error.
+
+Enter a year (Must be 4 digits): help
+Please use numbers only.
+Enter a year (Must be 4 digits): 12
+Please use 4 digits for the year.
+Enter a year (Must be 4 digits): 2012
+Year must be before 2010.
+Enter a year (Must be 4 digits): 1980
+Enter a month (2 digits): hey
+Please use numbers only.
+Please use 2 digits for the month.
+Enter a month (2 digits): 12
+Enter a day (2 digits): 44
+There are only 31 in December.
+Enter a day (2 digits): 13
+daysoftime.rb:98:in `initialize': wrong number of arguments (3 for 0) (ArgumentError)
+	from daysoftime.rb:98:in `new'
+	from daysoftime.rb:98
+
+Will work on this until it is fixed..
