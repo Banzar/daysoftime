@@ -21,9 +21,3 @@ Enter a day (2 digits): 33
 There are only 31 in December.
 Enter a day (2 digits): 21
 12/21/2000 was a Thursday and was 4002 days ago.
-
-With linux, instead of last line I am getting:
-
-daysoftime.rb:98:in `initialize': wrong number of arguments (3 for 0) (ArgumentError)
-	from daysoftime.rb:98:in `new'
-	from daysoftime.rb:98
