@@ -4,22 +4,26 @@ This could have been done with much less code in my opinion, if I had used "requ
 
 For some reason it works perfectly on windows, but linux it seems to have an error.
 
+Will work on this until it is fixed..
 Enter a year (Must be 4 digits): help
 Please use numbers only.
-Enter a year (Must be 4 digits): 12
+Enter a year (Must be 4 digits): 99
 Please use 4 digits for the year.
-Enter a year (Must be 4 digits): 2012
-Year must be before 2010.
-Enter a year (Must be 4 digits): 1980
-Enter a month (2 digits): hey
+Enter a year (Must be 4 digits): 2000
+Enter a month (2 digits): da
 Please use numbers only.
+Enter a month (2 digits): 1
+Please use 2 digits for the month.
+Enter a month (2 digits): 2
 Please use 2 digits for the month.
 Enter a month (2 digits): 12
-Enter a day (2 digits): 44
+Enter a day (2 digits): 33
 There are only 31 in December.
-Enter a day (2 digits): 13
+Enter a day (2 digits): 21
+12/21/2000 was a Thursday and was 4002 days ago.
+
+With linux, instead of last line I am getting:
+
 daysoftime.rb:98:in `initialize': wrong number of arguments (3 for 0) (ArgumentError)
 	from daysoftime.rb:98:in `new'
 	from daysoftime.rb:98
-
-Will work on this until it is fixed..
