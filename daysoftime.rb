@@ -22,10 +22,9 @@ require 'date'
  "2260", "2264", "2268", "2272", "2276", "2280", "2284", "2288", "2292",
  "2296", "2304", "2308", "2312", "2316", "2320", "2324", "2328", "2332",
  "2336", "2340", "2344", "2348", "2352", "2356", "2360", "2364", "2368",
-
  "2372", "2376", "2380", "2384", "2388", "2392", "2396", "2400"]
  
- dayofchoice = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"
+ dayofchoice = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
 "Friday", "Saturday"]
 
  monthname = [nil, "Janurary", "Feburary", "March", "April", "May", 
@@ -160,7 +159,7 @@ end
 
 	if leapz.include?(yearz)
 
-		yday = Time.new(yearz, monthz, dayz).yday
+		yday = Date.new(yearz.to_i, monthz.yo_i, dayz.to_i).yday
 
 		
 
